@@ -2,14 +2,19 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 html,
 body,
-#app {
+#app,
+#root {
   height: 100%;
 }
 body {
   font-family: 'Microsoft YaHei', '宋体', Tahoma, Arial, sans-serif;
   color: #333;
   background-color: #fff;
+}
+a {
+  color: #333;
 }
